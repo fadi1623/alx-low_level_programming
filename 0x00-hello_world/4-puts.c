@@ -5,7 +5,7 @@
  * 
  * Descriptiom : A C code that prints with puts function 
  *
- * always return 0 (Success)
+ * Return: Always 0 (Success) 
 */
 
 int main(void) 

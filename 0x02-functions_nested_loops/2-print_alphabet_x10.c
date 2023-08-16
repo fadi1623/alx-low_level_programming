@@ -1,12 +1,11 @@
 #include "main.h"
+
 /**
- * main - Entry point
- *
- * Descriptiom : print_alphabet - utilizes on the _putchar function to print
- * @parameter: describe the parameter
- *
- * Return: Always 0 (Success)
-*/
+ * print_alphabet_x10 - prints 10 times alphabet, in lowercase,
+ * followed by a new line
+ *
+**/
+
 void print_alphabet_x10(void)
 {
 	char c;

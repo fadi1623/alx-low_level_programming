@@ -6,7 +6,7 @@
  * Return: 1 if char is greater than zero, return 0 if char is zero
  * otherwise -1.
 */
-int print_sign(int n);
+int print_sign(int n)
 {
 		if (n > 0)
 		{

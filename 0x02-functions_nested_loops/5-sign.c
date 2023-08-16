@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - check if char is alphabet
+ * _print_sign - check if char is alphabet
  * @n: is the char to be checked
  *
  * Return: 1 if char is greater than zero, return 0 if char is zero

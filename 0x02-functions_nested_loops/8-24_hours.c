@@ -20,8 +20,8 @@ for (i = 0; i <= 2; i++)
 				_putchar(i);
 				_putchar(j);
 				_putchar(':');
-				_putchar('k');
-				_putchar('l');
+				_putchar(k);
+				_putchar(l);
 				_putchar('\n');
 			}
 		}

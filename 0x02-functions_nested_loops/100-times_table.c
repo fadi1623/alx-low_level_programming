@@ -23,6 +23,8 @@ void print_times_table(int n)
 			break;
 		putchar(',');
 		putchar(' ');
+		putchar(' ');
+		putchar(' ');
 	}
 	putchar('\n');
 	}

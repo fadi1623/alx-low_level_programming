@@ -3,19 +3,20 @@
 /**
  * print_to_98 - print function
  *
- * @n: counter paramete
+ * @n: counter parameter
  *
- * Return: always n .
+ * Return: always 0.
 */
 void print_to_98(int n)
 {
+	int i;
 
 	if (n <= 98)
 	{
-	for (; n <= 98; n++)
+	for (i = n; i <= 98; i++)
 	{
-		printf("%d", n);
-		if (n == 98)
+		printf("%d", i);
+		if (i == 98)
 		break;
 		_putchar(',');
 		_putchar(' ');
@@ -24,13 +25,14 @@ void print_to_98(int n)
 
 	else if (n >= 98)
 	{
-	for (; n >= 98; n--)
+	for (i = n; i >= 98; i--)
 	{
-		printf("%d", n);
-		if (n == 98)
+		printf("%d", i);
+		if (i == 98)
 		break;
 		_putchar(',');
 		_putchar(' ');
 	}
 	}
+	return (0);
 }

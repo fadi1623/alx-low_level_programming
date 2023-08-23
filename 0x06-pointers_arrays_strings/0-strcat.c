@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strchr - locate character in a string
@@ -8,11 +9,12 @@
  */
 char *_strcat(char *dest, char *src)
 {
-    int i;
-
-    for(i = 0; src[i] != '/0'; i++)
+    int i, j = 0;
+    int size = sizeof(dest)/sizeof(dest[0]);
+    for(i = size + 1; src[i] != '/0'; i++)
     {
-        dest[i] = src[i + 1];
+        dest[i] = src[j];
+        j++ ;
     }
     return (dest)
 }

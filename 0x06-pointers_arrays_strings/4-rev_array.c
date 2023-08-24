@@ -8,7 +8,6 @@
  * @a: array
  * @n: the number of the element in the array
  */
-
 void reverse_array(int *a, int n)
 {int i;
 
